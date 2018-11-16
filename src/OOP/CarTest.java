@@ -2,10 +2,10 @@ package OOP;
 
 public class CarTest {
     public static void main(String[] args) {
-        Car bmw = new Car(fuel = 10f, fuelConsumption = 8f, started = false);
+        Car bmw = new Car(10f, 8f,  false);
 
 
-        Car dacia = new Car(fuel: 10f, fuelConsumption: 8f, started: false);
+        Car dacia = new Car(10f, 8f, false);
 
 
         bmw.start();
